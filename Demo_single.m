@@ -4,9 +4,9 @@ clc;close all;clear;
 
 addpath('./COS_code');
 
-para.img_path='./img_data/single_data/';
+para.img_path='F:\研究生\个人\picaddbox/';
 para.result_path = './img_output/';
-para.img_name = '1.tif';
+para.img_name = '1_labeled.png';
 
 %--- cluster number -------
 para.Bin_num_single=6;
